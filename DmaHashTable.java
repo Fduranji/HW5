@@ -1,5 +1,5 @@
 /*
-   DmaHashTable class
+   DmaHashTable class PART 3 OF HOMEWORK
       Uses TableFunctions.java ~~ in order to work
       
    The class reads from a file, "AreaCodes.txt"
