@@ -1,5 +1,5 @@
 /*
-   RegionHashTable class
+   RegionHashTable class PART 4 OF HOMEWORK
       Uses TableFunctions.java ~~ in order to work
       
    The class reads from a file, "AreaCodes.txt"
