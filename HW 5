@@ -1,0 +1,20 @@
+3.3.1
+   Picture included
+3.3.2
+   Picture included
+3.3.7
+   Picture included
+3.3.10
+   Picture included
+3.3.19
+   Only one bit would be need to represent 5-,6-,7- and 8-nodes because
+      only one bit is needed to represent the color of the respected node.
+      There are only 2 colors we need to track, red or black. Adding the number
+      of nodes, does not change this. 
+3.4.1
+   Picture included
+3.4.4
+   when M = 19 and a = 13
+3.4.10
+   Picture included
+   
