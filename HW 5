@@ -17,4 +17,31 @@
    when M = 19 and a = 13
 3.4.10
    Picture included
+3.4.22
+   Point2D
+        public int hashCode() {
+        int hashX = ((Double) x).hashCode();
+        int hashY = ((Double) y).hashCode();
+        return 31*hashX + hashY;
+        }
+   Interval
+        public int hashCode() {
+        int hash1 = ((Double) min).hashCode();
+        int hash2 = ((Double) max).hashCode();
+        return 31*hash1 + hash2;
+        }
+   Interval2D
+        public int hashCode() {
+        int hash1 = x.hashCode();
+        int hash2 = y.hashCode();
+        return 31*hash1 + hash2;
+        }
+   Date    
+        public int hashCode() {
+        int hash = 17;
+        hash = 31*hash + month;
+        hash = 31*hash + day;
+        hash = 31*hash + year;
+        return hash;
+        }       
    
